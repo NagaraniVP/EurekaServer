@@ -1,0 +1,12 @@
+spring:
+  application :
+     name : test-server
+
+server:
+   port : 8070
+
+eureka:
+  client:
+     registerWithEureka: false
+     fetchRegistry: false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
